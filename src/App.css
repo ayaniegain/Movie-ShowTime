@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    background-size: cover;
+    
+}
+.wholecontainer{
+    
+    background-color: rgba(253, 253, 241, 0.788);
+}
+.title{
+    font-weight: bold;
+}
+img{
+    height: 300px;
+    margin: 20px;
+    
+}
+.box{
+    display: flex;
+    margin: 100px;
+    text-align: start;
+    box-shadow: 3px 3px rgb(235, 229, 229), 1em 0 .90em rgb(156, 156, 154);
+}
+.flexbody{
+    display: flex;
+}
+.card-body{
+    justify-content: flex-start;
+    padding-top: 3rem;
+    
+}
+.moviename{
+    font-size: 20px;
+    max-width: 200px;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    text-align: center;
+    align-items: center;
+}
+.head{
+    width: 400px;
+    padding: 20px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    align-items: center;
+    /* margin-left: 50%; */
+}
+.reds{
+
+    border-radius: 30px;
+}
